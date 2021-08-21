@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+width: 100%;
+overflow: hidden;
+background: linear-gradient(#808080,#3fada8);
+
+
+}
+
+.divone{
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.header{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.inputs{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.task-input{
+    width: 85%;
+    height: 100%;
+    border: 1px solid #ccc;
+    font-size: 17px ;
+    border-radius: 3px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.add-item{
+    width: 60px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(209, 26, 26);
+    color: #fff;
+    font-size: 22px;
+    /* cursor: pointer; */
+    border-radius: 3px;
+    margin-left: 5px;
+ 
+ 
+}
+.add-item.active{
+    opacity: 1;
+    pointer-events: auto;
+    
+}
+.add-item:hover{
+    background-color: rgb(251, 124, 124);
+    cursor: pointer;
+}
+
+.todo-list{
+    max-height: 250px;
+    overflow-y: auto;
+
+
+       margin: -140px auto;
+    max-width: 400px;
+    width: 100%;
+    background: rgb(113, 201, 212);
+    border-radius: 5px;
+    padding: 25px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.todo-list li{
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+position: relative;
+background: #f2f2f2;
+border-radius: 3px;
+margin-bottom: 8px;
+padding: 0 15px;
+cursor: default;
+color: black;
+}
+
+/* .todo-list{
+    position: absolute;
+    right: -45px;
+    color: yellow;
+background-color: red;
+width: 45px;
+text-align: center;
+border-radius: 0 3px 3px 0;
+cursor: pointer;
+transition: all 0.3s ease;
+} */
+
+
+.btn{
+    background-color: aquamarine;
+    border: none;
+    outline: none;
+    background: red;
+    color: wheat;
+    font-size: 10px;
+    /* cursor: pointer; */
+    border-radius: 3px;
+    padding: 6px 10px;
+    opacity: 0.7;
+    margin-top: 10px;
+    float:right;
+    border-radius: 2px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+
+.editbtn{
+    
+border-radius: 2px;
+    background-color: aquamarine;
+    border: none;
+    outline: none;
+    background: rgb(29, 104, 20);
+    color: wheat;
+    font-size: 10px;
+    /* cursor: pointer; */
+    border-radius: 3px;
+    padding: 6px 10px;
+    opacity: 0.7;
+    margin-top: 10px;
+    float:right;
+    margin-right: 10px;
+}
+.editbtn:hover{
+    cursor: pointer;
+}
+
+.delt-btn{
+    margin-left: 5px;
+    background-color: rgb(212, 25, 25);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 29, 22);
+    border-radius: 4px;
+}
+
+.delt-btn:hover{
+    background-color: rgb(251, 124, 124);
+    cursor: pointer;
+    border: 1px solid rgb(251, 124, 124);
+}
